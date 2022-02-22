@@ -18,7 +18,7 @@ class CasesRepositoryTest {
     @Test
     void itShouldFindCasesByDescription() {
         //given
-        String description = "Hello Cisco, when notice an alarm at 14:30 on 2022-01-11 please kindly check";
+        String description = "Hello Cisco, when notice an alarm at 14:30, please kindly check";
         Cases cases = new Cases(
 
                 "Smoke sensor alarm",
